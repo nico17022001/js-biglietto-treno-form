@@ -21,7 +21,7 @@ h4{
   border-radius: 10px;
 }
 
-.height-50-px{
+.height-150-px{
   height: 150px;
 }
 
@@ -37,9 +37,12 @@ h4{
   color: #c12e63;
 }
 
+.padding-y-{
+  padding: 30px 0px 0px 0px;
+}
+
 select{
   border-radius: 5px;
-  width: 140px !important;
   border: solid 1px #c12e63;
 }
 

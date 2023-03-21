@@ -15,77 +15,42 @@
     <h4 class="text-white">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h4>
   </div>
 
-  <div class="container-fluid d-flex justify-content-center">
-    <div class="col-7 bg-white border-r height-50-px d-flex justify-content-evenly ">
-
-      <div class="row padding-y">
-        <div class="col d-flex align-items-center flex-column ">
-
-          <div class="row margin-x-10 ">
-            <span class="pink"> <strong>Nome Cognome</strong></span>
-          </div>
-
-          <div class="row padding-y">
-            <div class="userName-cont bor-rad-5px">
-              <div class="col">
-                <input type="text" class="form-control"aria-label="First name">
-              </div>
-            </div>
-          </div>
-
-        </div>
+  <div class="container bg-white bor-rad-5px height-150-px padding-y">
+    <div class="row">
+      <div class="col d-flex align-items-center flex-column">
+          <h5>Nome</h5>
+          <input type="text" class="form-control userName">
       </div>
-
-      <div class="row padding-y">
-        <div class="col d-flex align-items-center flex-column ">
-
-          <div class="row margin-x-10 ">
-            <span class="pink"><strong>Km da percorrere</strong></span>
-          </div>
-
-          <div class="row padding-y">
-            <div class="userName-cont bor-rad-5px">
-              <div class="col">
-                <input type="text" class="form-control" aria-label="First name">
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="col d-flex align-items-center flex-column">
+        <h5>Km da percorrere</h5>
+        <input type="text" class="form-control">
+    </div>
+    <div class="col d-flex align-items-center flex-column">
+      <h5>Fascia d'età</h5>
+      <div class="row ">
+        <select>
+          <option selected>Seleziona età</option>
+          <option class="minorenne" value="1">Minorenne</option>
+          <option value="2">Stantard</option>
+          <option class="anziano" value="3">Anziano</option>            
+        </select>
       </div>
-
-      <div class="row padding-y">
-        <div class="col d-flex align-items-center flex-column ">
-
-          <div class="row margin-x-10 ">
-            <span class="pink"><strong>Selezione età</strong></span>
-          </div>
-
-          <div class="row padding-y">
-            <select>
-              <option selected>Seleziona età</option>
-              <option class="minorenne" value="1">Minorenne</option>
-              <option value="2">Stantard</option>
-              <option class="anziano" value="3">Anziano</option>            
-            </select>
-          </div>
-        </div>
-      </div>
-
-      
-
-      
-
-
+  </div>
     </div>
 
-    
+    <div class="row padding-y-">
+      <div class="col text-end">
+        <button type="button" class="btn btn-primary">Genera</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-primary">Annulla</button>
+      </div>
+    </div>
 
   </div>
+</div>
   
-  
-
-
-  
+    
 
 
 
