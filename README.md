@@ -17,6 +17,9 @@ Passaggi
 - definire il prezzo del biglietto per km percorso 
 - chiedere all'utente i km da percorrere 
 - chiedere all'utente il suo nome 
+- chiedere all'utente la sua età
+- creare variabile prezzo under 18 con il 20% di sconto
+- creare variabile prezzo over 65 con il 40% di sconto 
 - assegnare il valore km da percorrere a un tag 
 - assegnare nome a un tag 
 - definire il prezzo finale dopo aver ottenuto i dati dell'utente 
