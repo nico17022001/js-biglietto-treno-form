@@ -1,0 +1,62 @@
+/*General*/
+
+body{
+  background-color: #b91450;
+  padding-top: 10px;
+}
+
+h4{
+  margin-bottom: 20px;
+}
+
+.debug{
+  background-color: rgba(0, 255, 255, 0.455);
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.border-r{
+  border-radius: 10px;
+}
+
+.height-50-px{
+  height: 150px;
+}
+
+.margin-x-10{
+  margin: 0px 5px 0px 5px;
+}
+
+.padding-y{
+  padding: 10px 0px 10px 0px ;
+}
+
+.pink{
+  color: #c12e63;
+}
+
+select{
+  border-radius: 5px;
+  width: 140px !important;
+  border: solid 1px #c12e63;
+}
+
+.bor-rad-5px{
+  border-radius: 5px;
+}
+
+.form-control{
+  width: 140px;
+  height: 26px;
+  border: #c43a6c solid 1px;
+}
+/*Elements*/
+
+.userName-cont{
+  width: 140px;
+  display: flex;
+  justify-content: center;
+}
+
