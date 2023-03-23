@@ -5,8 +5,9 @@ body{
   padding-top: 10px;
 }
 
-h4{
-  margin-bottom: 20px;
+h5{
+  font-size: inherit;
+  color:#b91450 ;
 }
 
 .debug{
@@ -23,6 +24,18 @@ h4{
 
 .height-150-px{
   height: 150px;
+}
+
+.height-80-px{
+  height: 80px;
+}
+
+.border-ticket{
+  border: 1px solid black;
+}
+
+.padding-left{
+  padding-left: 10px;
 }
 
 .margin-x-10{
@@ -55,11 +68,25 @@ select{
   height: 26px;
   border: #c43a6c solid 1px;
 }
+
+.bg-gray{
+  background-color: #808080;
+}
+
+.margin-side-5{
+  margin: 0px 5px 0px 5px;
+}
 /*Elements*/
 
 .userName-cont{
   width: 140px;
   display: flex;
   justify-content: center;
+}
+
+table{
+  border: 1px solid black;
+  border-right: 0;
+  border-left: 0;
 }
 
