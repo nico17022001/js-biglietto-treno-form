@@ -6,6 +6,8 @@ const InputKm = document.querySelector('#km');
 const inputAge = document.querySelector('#age');
 const buttonGenera = document.querySelector('#genera');
 const buttonAnnulla = document.querySelector('#annulla')
+let ticketContainer = document.querySelector('#ndcontainer')
+
 
 // logic
 // t1 => parte quando l'utente clicca sul pulsante GENERA
@@ -16,7 +18,8 @@ buttonGenera.addEventListener('click', function() {
   const km = InputKm.value;
   const age = inputAge.value;
   let price = 0.21 * km;
-
+  
+  ticketContainer.classList = '';
 
   // logic
   if (age == 'minorenne') {
@@ -27,9 +30,7 @@ buttonGenera.addEventListener('click', function() {
     price = price * 0.6;
   }
 
-  buttonAnnulla.addEventListener('click', function(){
-    
-  })
+
 
 
   // output
@@ -38,3 +39,9 @@ buttonGenera.addEventListener('click', function() {
   document.querySelector('#tiketPrice').innerText = price + ' ' + 'euro'
 
 });
+
+
+buttonAnnulla.addEventListener('click', function() {
+
+  ticketContainer.classList = 'd-none';
+})
